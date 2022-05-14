@@ -1,1 +1,3 @@
-# fsa-k8s
+# PosAm Fullstack academy - DevOps Workshop
+
+## Kubernetes cluster
