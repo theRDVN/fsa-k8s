@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "fullstackacademy2022"
+    organization = "theRDVN"
 
     workspaces {
       name = "fsa-infra"

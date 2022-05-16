@@ -26,11 +26,11 @@
 # Global
 # -----------------------------------------------------------------------------
 
-location = "northeurope"
+location = "westeurope"
 
 environment = "develop"
 
-resource_group = "fsa22-infra"
+resource_group = "fsa-infra"
 
 resource_name = "fsa"
 
@@ -38,17 +38,17 @@ resource_name = "fsa"
 # AK
 # -----------------------------------------------------------------------------
 
-dns_prefix = "monkos"
+dns_prefix = "pieterr"
 
 name = "fsa"
 
 node_count = "2"
 
-vm_size = "Standard_B2s"
+vm_size = "standard_d2as_v5"
 
 os_disk_size = "30"
 
-# api_server_authorized_ip_ranges = ["0.0.0.0/32"]
+api_server_authorized_ip_ranges = ["0.0.0.0/32"]
 
 
 # log_analytics_workspace_name = "fsaaks"
